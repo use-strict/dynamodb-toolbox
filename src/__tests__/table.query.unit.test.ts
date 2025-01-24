@@ -100,7 +100,7 @@ describe('query',()=>{
       FilterExpression: '#attr1 = :attr1',
       ProjectionExpression: '#proj1,#proj2,#proj3,#proj4',
       IndexName: 'GSI1',
-      Limit: '10',
+      Limit: 10,
       ScanIndexForward: false,
       ConsistentRead: true,
       ReturnConsumedCapacity: 'TOTAL',
